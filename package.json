@@ -1,0 +1,22 @@
+{
+  "name": "chess",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.9.4",
+    "@tauri-apps/cli": "^1.5.6",
+    "nuxt": "^3.8.1",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  }
+}
